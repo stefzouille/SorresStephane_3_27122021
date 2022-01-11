@@ -88,9 +88,9 @@
   animation-name: fadeIn-color 2.8s forwards;
 }
 .backcolo .loader {
-  border: 20px solid #FF79DA;
-  border-top: 20px solid #9156DC;
-  color: #99E2D0;
+  border: 20px solid #ff79da;
+  border-top: 20px solid #9156dc;
+  color: #99e2d0;
   border-radius: 50%;
   animation: spin 2.8s linear forwards;
   animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -101,7 +101,7 @@
   align-self: center;
   animation-fill-mode: both;
   z-index: 10000;
-  background: #9156DC;
+  background: #9156dc;
 }
 
 body {
@@ -166,7 +166,7 @@ header .res_txt {
   font-size: 16px;
 }
 header button {
-  background: linear-gradient(#FF79DA, #9156DC);
+  background: linear-gradient(#ff79da, #9156dc);
   box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border-radius: 35px 35px 35px 35px;
   margin: 30px;
@@ -228,7 +228,7 @@ header button:hover {
   padding: 5px 10px 5px 10px;
   font-size: 15px;
   transform: translateX(-15px);
-  background-color: #9156DC;
+  background-color: #9156dc;
 }
 .container .fas {
   margin-left: 15px;
@@ -236,12 +236,12 @@ header button:hover {
 }
 
 .fa-store:hover {
-  color: #9156DC;
+  color: #9156dc;
 }
 
 .main li:hover {
   background-color: #f5edff;
-  color: #9156DC;
+  color: #9156dc;
   box-shadow: 0.5px 1px 4px 1px #a5a5a5;
 }
 
@@ -269,10 +269,10 @@ img {
   height: 180px;
 }
 .section_card a strong {
-  border: #99E2D0 1px solid;
+  border: #99e2d0 1px solid;
   padding: 0.4rem 0.7rem;
   color: #437457;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   border-radius: 3px;
 }
 .section_card h5 {
@@ -313,7 +313,7 @@ img {
 }
 .section_card .like .fas {
   position: absolute;
-  color: #FF79DA;
+  color: #ff79da;
   display: none;
 }
 .section_card .like .far {
@@ -435,7 +435,7 @@ header .menu_nav i {
   font-family: "Roboto", sans-serif;
   margin: 15px;
   font-size: 20px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -536,7 +536,7 @@ header .menu_nav i {
   padding: 9px 20px 40px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   font-size: 38px;
   right: 0;
   top: 0px;
@@ -546,6 +546,7 @@ header .menu_nav i {
 
 .card-menu:hover {
   margin: 10px 0 0px 15px;
+  padding: 0px 0 10px 10px;
 }
 .card-menu:hover strong {
   transform: translateX(-5%);
@@ -564,13 +565,13 @@ header .menu_nav i {
   animation-delay: 0.3s;
 }
 .card-menu:hover p:hover {
-  white-space: nowrap;
-  margin: 0px 0 0px 0px;
+  margin: 3px 0 0px 0px;
   padding: 0px 0 0px 15px;
+  width: 45%;
+  white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 45%;
 }
 
 .plats {
@@ -582,7 +583,7 @@ header .menu_nav i {
   margin: 15px;
   font-size: 25px;
   padding-bottom: 5px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -595,7 +596,7 @@ header .menu_nav i {
   margin: 15px;
   font-size: 25px;
   padding-bottom: 5px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -609,7 +610,7 @@ header .menu_nav i {
 .cmd a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  background: linear-gradient(#FF79DA, #9156DC);
+  background: linear-gradient(#ff79da, #9156dc);
   box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border: none;
   border-radius: 40px;
@@ -719,7 +720,7 @@ header .menu_nav i {
   font-family: "Roboto", sans-serif;
   margin: 15px;
   font-size: 20px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -820,7 +821,7 @@ header .menu_nav i {
   padding: 9px 20px 40px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   font-size: 38px;
   right: 0;
   top: 0px;
@@ -830,6 +831,7 @@ header .menu_nav i {
 
 .card-menu:hover {
   margin: 10px 0 0px 15px;
+  padding: 0px 0 10px 10px;
 }
 .card-menu:hover strong {
   transform: translateX(-5%);
@@ -848,13 +850,13 @@ header .menu_nav i {
   animation-delay: 0.3s;
 }
 .card-menu:hover p:hover {
-  white-space: nowrap;
-  margin: 0px 0 0px 0px;
+  margin: 3px 0 0px 0px;
   padding: 0px 0 0px 15px;
+  width: 45%;
+  white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 45%;
 }
 
 .plats {
@@ -866,7 +868,7 @@ header .menu_nav i {
   margin: 15px;
   font-size: 25px;
   padding-bottom: 5px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -879,7 +881,7 @@ header .menu_nav i {
   margin: 15px;
   font-size: 25px;
   padding-bottom: 5px;
-  text-decoration: underline #99E2D0;
+  text-decoration: underline #99e2d0;
   text-underline-position: under;
 }
 
@@ -893,7 +895,7 @@ header .menu_nav i {
 .cmd a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  background: linear-gradient(#FF79DA, #9156DC);
+  background: linear-gradient(#ff79da, #9156dc);
   box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border: none;
   border-radius: 40px;

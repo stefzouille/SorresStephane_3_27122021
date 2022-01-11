@@ -167,7 +167,8 @@ header {
 
 .card-menu:hover {
   margin: 10px 0 0px 15px;
-  // padding: 2px 0 0px 15px;
+  padding: 0px 0 10px 10px;
+
   strong {
     transform: translateX(-5%);
 
@@ -189,13 +190,14 @@ header {
 
   // ------------------------rogner texte avec 3 dot en mode hover ------------------------------
   p:hover {
-    white-space: nowrap;
-    margin: 0px 0 0px 0px;
+    margin: 3px 0 0px 0px;
     padding: 0px 0 0px 15px;
-    display: inline-block;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    // white-space: nowrap;
+    // display: inline-block;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
     width: 45%;
+    @include rogner;
   }
 }
 
