@@ -1,0 +1,71 @@
+//----------------------------------- menu fonctionnement ---------------------------------------
+.container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  animation: fadeIn 2s;
+
+  h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  ul {
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: decimal;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+  }
+
+  li {
+    list-style: none;
+    outline: none;
+    padding: 18px 10px 15px 0px;
+    margin: 20px 10px 20px 0px;
+    width: 98%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 35px;
+    box-shadow: 0.5px 1px 4px 1px rgb(212, 212, 212);
+
+    p {
+      font-weight: bold;
+      display: inline-flex;
+      color: white;
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+      font-size: 15px;
+      transform: translateX(-15px);
+      background-color: $color-primary;
+    }
+  }
+  .fas {
+    margin-left: 2%;
+    margin-right: 8px;
+  }
+}
+
+// -------------------------------- menu fonctionnement rendre transparent color primary---------------------------------------
+.fa-store:hover {
+  color: $color-primary;
+}
+.main li:hover {
+  // background-color: $color-primary ;
+  // filter: opacity(0.1);
+  // transition: linear 0.5s;
+  background-color: rgb(245, 237, 255);
+  color: $color-primary;
+  box-shadow: 0.5px 1px 4px 1px rgb(165, 165, 165);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,249 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  @include auto-cover;
+}
+
+header {
+  img {
+    width: 42%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .menu_nav i {
+    width: 10%;
+    height: 50%;
+    margin: 4vw auto;
+    float: left;
+    font-size: 30px;
+
+    @include no-effect-liens;
+  }
+}
+
+.card {
+  position: relative;
+}
+
+.menu {
+  position: relative;
+  margin-top: -50px;
+  background-color: rgb(233, 233, 233);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+
+  h1 {
+    font-size: 28px;
+    font-family: "Shrikhand", cursive;
+    display: inline-block;
+    margin: 45px 4px 20px 10px;
+    padding-left: 20px;
+    width: 70%;
+  }
+  .likee {
+    display: inline;
+    width: 15%;
+    margin-top: 13%;
+    font-size: 25px;
+    float: right;
+  }
+  i {
+    @include no-effect-liens;
+  }
+
+  .entrees h1 {
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    font-size: 20px;
+    @include underline-green;
+  }
+}
+
+#delay1 {
+  animation: splash 0.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.1s;
+}
+#delay2 {
+  animation: splash 0.5s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+}
+#delay3 {
+  animation: splash 0.5s ease-in-out;
+
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+#delay4 {
+  animation: splash 0.7s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 0.7s;
+}
+#delay5 {
+  animation: splash 0.7s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+#delay6 {
+  animation: splash 0.7s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 1.3s;
+}
+#delay7 {
+  animation: splash 0.9s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+}
+#delay8 {
+  animation: splash 0.9s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 1.7s;
+}
+#delay9 {
+  animation: splash 0.9s ease-in-out;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+.card-menu {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: #d8d8d8 0px 0px 10px;
+  background-color: white;
+  width: 94%;
+  margin: 10px 10px 0px 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  @include no-effect-liens;
+
+  h2 {
+    font-size: 17px;
+    padding: 0;
+    margin: 15px 10px 5px 15px;
+  }
+
+  p {
+    display: inline;
+    font-size: 14px;
+    padding: 0;
+    margin: 15px 15px 10px 15px;
+  }
+
+  strong {
+    position: absolute;
+    right: 120px;
+    font-size: 15px;
+    transform: translateX(90px);
+    transition: 700ms;
+  }
+  .fa-check-circle {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  }
+}
+.back {
+  position: absolute;
+  color: white;
+  padding: 9px 20px 40px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: $color-tertiary;
+  font-size: 38px;
+  right: 0;
+  top: 0px;
+  transform: translateX(100px);
+  transition: 700ms;
+}
+// ------------------------- elements hidden validation ----------------------------------
+
+.card-menu:hover {
+  margin: 10px 0 0px 15px;
+  // padding: 2px 0 0px 15px;
+  strong {
+    transform: translateX(-5%);
+
+    transition: transform 400ms ease-in-out;
+    display: inline-block;
+  }
+
+  .back {
+    transform: translateX(0px);
+    transition: transform 400ms ease-in-out;
+  }
+  .fa-check-circle {
+    color: white;
+    visibility: visible;
+    border-radius: 50%;
+    animation: rotate-validation 200ms;
+    animation-delay: 0.3s;
+  }
+
+  // ------------------------rogner texte avec 3 dot en mode hover ------------------------------
+}
+
+p:hover {
+  white-space: nowrap;
+  margin: 0px 0 0px 0px;
+  padding: 0px 0 0px 15px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 45%;
+}
+
+.plats {
+  margin-top: 40px;
+}
+
+.plats h1 {
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  @include underline-green;
+}
+
+.desserts {
+  margin-top: 40px;
+}
+
+.desserts h1 {
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  @include underline-green;
+}
+
+.cmd {
+  @include no-effect-liens;
+  text-align: center;
+  margin: 50px;
+  padding-top: 20px;
+
+  a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    background: linear-gradient($color-secondary, $color-primary);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 80px 20px 80px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+//---------------------------------- footer ------------------------------------------------
+footer {
+  @include footer;
+}

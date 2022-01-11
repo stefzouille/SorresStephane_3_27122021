@@ -1,0 +1,99 @@
+//----------------------------------card restaurant ------------------------------------------------
+.section_card {
+  animation: fadeIn 2s;
+  background-color: #f2f2f2;
+  padding: 35px 15px 35px 15px;
+
+  section {
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(197, 197, 197);
+  }
+
+  img {
+    // position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 180px;
+  }
+
+  a strong {
+    border: $color-tertiary 1px solid;
+    // position: relative;
+    // top: -10.5rem;
+    // left: 17rem;
+    // z-index: 2;
+    padding: 0.4rem 0.7rem;
+    color: rgb(67, 116, 87);
+    background-color: $color-tertiary;
+    border-radius: 3px;
+  }
+  h5 {
+    position: absolute;
+    top: 12px;
+    right: 35px;
+  }
+
+  a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+  h1 {
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  h4 {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    margin: 10px 4px 1px 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  p {
+    padding-bottom: 20px;
+    margin: 4px 4px 4px 10px;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .like {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-size: 30px;
+    margin: 15px;
+    list-style-type: none;
+    .fas {
+      position: absolute;
+      color: $color-secondary;
+      display: none;
+    }
+    .far {
+      float: right;
+    }
+  }
+}
+
+// ---------fas rose & le far a cacher ------------------------------
+.like:hover {
+  .fas {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    z-index: 100;
+    animation: like 1s forwards;
+  }
+  .far {
+    position: relative;
+    z-index: 10;
+    float: right;
+    // color: transparent;
+  }
+}
+
+//   animation: like 1s infinite;

@@ -1,0 +1,9 @@
+//---------------------------------- footer ------------------------------------------------
+footer {
+  animation: fadeIn 2s;
+  @include footer;
+  font-size: 15px;
+}
+.li:hover {
+  background-color: crimson;
+}

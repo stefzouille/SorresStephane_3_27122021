@@ -1,0 +1,22 @@
+.backcolo {
+  display: flex;
+  flex-direction: column;
+
+  animation-name: fadeIn-color 2.8s forwards;
+  .loader {
+    border: 20px solid $color-secondary;
+    border-top: 20px solid $color-primary;
+    color: $color-tertiary;
+    border-radius: 50%;
+    animation: spin 2.8s linear forwards;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    top: 20%;
+    align-self: center;
+    animation-fill-mode: both;
+    z-index: 10000;
+    background: $color-primary;
+  }
+}
