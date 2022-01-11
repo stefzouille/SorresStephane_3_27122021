@@ -556,8 +556,7 @@ header .menu_nav i {
   animation: rotate-validation 200ms;
   animation-delay: 0.3s;
 }
-
-p:hover {
+.card-menu:hover p:hover {
   white-space: nowrap;
   margin: 0px 0 0px 0px;
   padding: 0px 0 0px 15px;
@@ -836,8 +835,7 @@ header .menu_nav i {
   animation: rotate-validation 200ms;
   animation-delay: 0.3s;
 }
-
-p:hover {
+.card-menu:hover p:hover {
   white-space: nowrap;
   margin: 0px 0 0px 0px;
   padding: 0px 0 0px 15px;
