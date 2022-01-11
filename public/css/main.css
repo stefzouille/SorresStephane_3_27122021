@@ -167,6 +167,7 @@ header .res_txt {
 }
 header button {
   background: linear-gradient(#FF79DA, #9156DC);
+  box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border-radius: 35px 35px 35px 35px;
   margin: 30px;
   padding: 25px;
@@ -178,6 +179,10 @@ header button {
 header button a {
   text-decoration: none;
   color: white;
+}
+header button:hover {
+  filter: brightness(115%);
+  box-shadow: 0.5px 0.5px 15px 0.5px #636161;
 }
 
 .container {
@@ -201,8 +206,10 @@ header button a {
   text-decoration: none;
   color: black;
   padding-left: 2%;
+  margin-left: 15px;
 }
 .container li {
+  border: aqua 1px solid;
   list-style: none;
   outline: none;
   padding: 18px 10px 15px 0px;
@@ -224,7 +231,7 @@ header button a {
   background-color: #9156DC;
 }
 .container .fas {
-  margin-left: 2%;
+  margin-left: 15px;
   margin-right: 8px;
 }
 
@@ -603,12 +610,17 @@ header .menu_nav i {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   background: linear-gradient(#FF79DA, #9156DC);
+  box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border: none;
   border-radius: 40px;
   padding: 18px 80px 20px 80px;
   outline: none;
   color: white;
   font-size: 15px;
+}
+.cmd a:hover {
+  filter: brightness(115%);
+  box-shadow: 0.5px 0.5px 15px 0.5px #636161;
 }
 
 footer {
@@ -882,12 +894,17 @@ header .menu_nav i {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   background: linear-gradient(#FF79DA, #9156DC);
+  box-shadow: 0.5px 0.5px 3px 0.5px #636161;
   border: none;
   border-radius: 40px;
   padding: 18px 80px 20px 80px;
   outline: none;
   color: white;
   font-size: 15px;
+}
+.cmd a:hover {
+  filter: brightness(115%);
+  box-shadow: 0.5px 0.5px 15px 0.5px #636161;
 }
 
 footer {

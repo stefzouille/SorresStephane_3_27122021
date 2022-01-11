@@ -58,6 +58,7 @@ header {
 
   button {
     background: linear-gradient($color-secondary, $color-primary);
+    box-shadow: 0.5px 0.5px 3px 0.5px rgb(99, 97, 97);
     border-radius: 35px 35px 35px 35px;
     margin: 30px;
     padding: 25px;
@@ -70,5 +71,10 @@ header {
       text-decoration: none;
       color: white;
     }
+  }
+
+  button:hover {
+    filter: brightness(115%);
+    box-shadow: 0.5px 0.5px 15px 0.5px rgb(99, 97, 97);
   }
 }

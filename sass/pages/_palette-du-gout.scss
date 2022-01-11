@@ -233,12 +233,17 @@ header {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     background: linear-gradient($color-secondary, $color-primary);
+    box-shadow: 0.5px 0.5px 3px 0.5px rgb(99, 97, 97);
     border: none;
     border-radius: 40px;
     padding: 18px 80px 20px 80px;
     outline: none;
     color: white;
     font-size: 15px;
+  }
+  a:hover {
+    filter: brightness(115%);
+    box-shadow: 0.5px 0.5px 15px 0.5px rgb(99, 97, 97);
   }
 }
 
