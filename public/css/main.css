@@ -209,7 +209,6 @@ header button:hover {
   margin-left: 15px;
 }
 .container li {
-  border: aqua 1px solid;
   list-style: none;
   outline: none;
   padding: 18px 10px 15px 0px;
@@ -420,13 +419,6 @@ header .menu_nav i {
   padding-left: 20px;
   width: 70%;
 }
-.menu .likee {
-  display: inline;
-  width: 15%;
-  margin-top: 13%;
-  font-size: 25px;
-  float: right;
-}
 .menu i {
   list-style-type: none;
   color: black;
@@ -437,6 +429,38 @@ header .menu_nav i {
   font-size: 20px;
   text-decoration: underline #99e2d0;
   text-underline-position: under;
+}
+.menu .like {
+  position: absolute;
+  bottom: 70px;
+  right: 25px;
+  font-size: 30px;
+  margin-top: 13%;
+  width: 15%;
+  list-style-type: none;
+}
+.menu .like .fas {
+  position: absolute;
+  color: #ff79da;
+  display: none;
+}
+.menu .like .far {
+  float: right;
+}
+
+.like:hover .fas {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: block;
+  visibility: visible;
+  z-index: 100;
+  animation: like 1s forwards;
+}
+.like:hover .far {
+  position: relative;
+  z-index: 10;
+  float: right;
 }
 
 #delay1 {
