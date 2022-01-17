@@ -228,17 +228,21 @@ img {
     width: 93%;
     @include rogner;
   }
+  h3 {
+    width: 93%;
+    @include rogner;
+  }
 }
 
 // ----------------------rogner  hover h3 --------------------------------------------------
-.roro:hover {
-  max-width: 50%;
-  white-space: nowrap;
-  display: inline-block;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  @include rogner;
-}
+// h3:hover {
+//   max-width: 50%;
+//   white-space: nowrap;
+//   display: inline-block;
+//   text-overflow: ellipsis;
+//   overflow: hidden;
+//   @include rogner;
+// }
 
 // -----------------------underline green 3 titres de menus --------------------------------------------------
 .underline {
