@@ -226,11 +226,17 @@ img {
     @include rogner;
   }
 }
+
+// -----------------------underline green titres  menu --------------------------------------------------
+.underline {
+  width: 50px;
+  border: 2px solid $color-tertiary;
+  margin-left: 15px;
+}
 .entrees h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  @include underline-green;
 }
 
 .plats {
@@ -239,10 +245,8 @@ img {
 
 .plats h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  padding-bottom: 5px;
-  @include underline-green;
 }
 
 .desserts {
@@ -251,10 +255,8 @@ img {
 
 .desserts h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  padding-bottom: 5px;
-  @include underline-green;
 }
 
 .cmd {

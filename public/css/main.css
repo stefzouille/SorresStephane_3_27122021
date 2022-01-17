@@ -591,14 +591,16 @@ img {
   overflow: hidden;
 }
 
+.underline {
+  width: 50px;
+  border: 2px solid #99e2d0;
+  margin-left: 15px;
+}
+
 .entrees h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  text-decoration: underline #99e2d0;
-  text-decoration-thickness: 2px;
-  text-underline-position: under;
-  text-underline-offset: 5px;
 }
 
 .plats {
@@ -607,13 +609,8 @@ img {
 
 .plats h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  padding-bottom: 5px;
-  text-decoration: underline #99e2d0;
-  text-decoration-thickness: 2px;
-  text-underline-position: under;
-  text-underline-offset: 5px;
 }
 
 .desserts {
@@ -622,13 +619,8 @@ img {
 
 .desserts h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px;
+  margin: 15px 15px 5px 15px;
   font-size: 20px;
-  padding-bottom: 5px;
-  text-decoration: underline #99e2d0;
-  text-decoration-thickness: 2px;
-  text-underline-position: under;
-  text-underline-offset: 5px;
 }
 
 .cmd {
