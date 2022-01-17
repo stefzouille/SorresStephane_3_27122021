@@ -295,3 +295,9 @@ img {
 footer {
   @include footer;
 }
+
+@media (min-width: 568px) {
+  a {
+    display: inline;
+  }
+}
