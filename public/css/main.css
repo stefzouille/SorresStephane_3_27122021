@@ -578,7 +578,7 @@ img {
 .back {
   position: absolute;
   color: white;
-  padding: 9px 20px 40px 20px;
+  padding: 9px 20px 20px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #99e2d0;
@@ -610,9 +610,9 @@ img {
   animation-delay: 0.3s;
 }
 .card-menu:hover p:hover {
-  margin: 3px 0 0px 0px;
-  padding: 0px 0 0px 15px;
-  width: 60%;
+  margin: 1px 0px 0px 0px;
+  padding: 1px 0px 0px 15px;
+  width: 93%;
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;

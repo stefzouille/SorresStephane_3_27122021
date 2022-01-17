@@ -178,7 +178,7 @@ img {
 .back {
   position: absolute;
   color: white;
-  padding: 9px 20px 40px 20px;
+  padding: 9px 20px 20px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: $color-tertiary;
@@ -214,15 +214,16 @@ img {
     animation-delay: 0.3s;
   }
 
-  // ------------------------rogner texte avec 3 dot en mode hover ------------------------------
+  // ------------------------rogner P texte avec 3 dot en mode hover ------------------------------
   p:hover {
-    margin: 3px 0 0px 0px;
-    padding: 0px 0 0px 15px;
+    margin: 1px 0px 0px 0px;
 
-    width: 60%;
+    padding: 1px 0px 0px 15px;
+    width: 93%;
     @include rogner;
   }
 }
+// ----------------------rogner  hover h3 --------------------------------------------------
 .roro:hover {
   max-width: 60%;
   white-space: nowrap;
@@ -232,7 +233,7 @@ img {
   @include rogner;
 }
 
-// -----------------------underline green titres  menu --------------------------------------------------
+// -----------------------underline green 3 titres de menus --------------------------------------------------
 .underline {
   width: 50px;
   border: 2px solid $color-tertiary;
@@ -282,6 +283,8 @@ img {
     color: white;
     font-size: 15px;
   }
+
+  //  -------------------------brillance bouton au survole --------------------------------------------------
   a:hover {
     filter: brightness(115%);
     box-shadow: 0.5px 0.5px 15px 0.5px rgb(99, 97, 97);
