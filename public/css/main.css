@@ -190,13 +190,6 @@ header button:hover {
   margin-bottom: 50px;
   animation: fadeIn 2s;
 }
-.container .transparent {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  width: auto;
-}
 .container h1 {
   font-size: 30px;
   margin-left: 15px;
@@ -263,15 +256,14 @@ img {
     padding: 3rem;
   }
 
-  .transparent {
+  ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    width: auto;
+    flex-wrap: wrap;
   }
-  .transparent li {
-    width: 110%;
+
+  .container li {
+    white-space: nowrap;
+    width: 30%;
     align-items: center;
   }
 }
@@ -359,9 +351,18 @@ img {
 
 /* la largeur du viewport */
 @media (min-width: 568px) {
-  .section_card a section {
-    width: 80%;
-    width: auto;
+  h1 {
+    width: 100%;
+  }
+
+  .section_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .section_card a {
+    width: 40%;
   }
 }
 footer {

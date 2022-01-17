@@ -98,8 +98,15 @@
 
 /* la largeur du viewport */
 @media (min-width: 568px) {
-  .section_card a section {
-    width: 80%;
-    width: auto;
+  h1 {
+    width: 100%;
+  }
+  .section_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .section_card a {
+    width: 40%;
   }
 }

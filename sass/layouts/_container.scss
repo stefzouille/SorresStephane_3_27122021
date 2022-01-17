@@ -4,13 +4,6 @@
   margin-bottom: 50px;
   animation: fadeIn 2s;
 
-  .transparent {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    width: auto;
-  }
   h1 {
     font-size: 30px;
     margin-left: 15px;
@@ -83,16 +76,13 @@ img {
   body {
     padding: 3rem;
   }
-  .transparent {
+  ul {
     display: flex;
-    // flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .container li {
+    white-space: nowrap;
+    width: 30%;
     align-items: center;
-    width: 100%;
-    width: auto;
-    li {
-      width: 110%;
-      align-items: center;
-    }
   }
 }
