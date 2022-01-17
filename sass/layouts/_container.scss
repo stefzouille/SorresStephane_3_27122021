@@ -13,7 +13,7 @@
   }
   h1 {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   ul {
     align-items: center;
@@ -90,5 +90,9 @@ img {
     align-items: center;
     width: 100%;
     width: auto;
+    li {
+      width: 110%;
+      align-items: center;
+    }
   }
 }
