@@ -96,4 +96,10 @@
   }
 }
 
-//   animation: like 1s infinite;
+/* la largeur du viewport */
+@media (min-width: 568px) {
+  .section_card a section {
+    width: 80%;
+    width: auto;
+  }
+}

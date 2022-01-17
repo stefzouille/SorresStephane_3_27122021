@@ -190,6 +190,13 @@ header button:hover {
   margin-bottom: 50px;
   animation: fadeIn 2s;
 }
+.container .transparent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  width: auto;
+}
 .container h1 {
   font-size: 30px;
   margin-left: 10px;
@@ -250,6 +257,20 @@ img {
   object-fit: cover;
 }
 
+/* la largeur du viewport */
+@media (min-width: 568px) {
+  body {
+    padding: 3rem;
+  }
+
+  .transparent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    width: auto;
+  }
+}
 .section_card {
   animation: fadeIn 2s;
   background-color: #f2f2f2;
@@ -332,6 +353,13 @@ img {
   float: right;
 }
 
+/* la largeur du viewport */
+@media (min-width: 568px) {
+  .section_card a section {
+    width: 80%;
+    width: auto;
+  }
+}
 footer {
   animation: fadeIn 2s;
   background-color: #414141;
@@ -584,7 +612,19 @@ img {
 .card-menu:hover p:hover {
   margin: 3px 0 0px 0px;
   padding: 0px 0 0px 15px;
-  width: 45%;
+  width: 60%;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.roro:hover {
+  max-width: 60%;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
@@ -594,12 +634,12 @@ img {
 .underline {
   width: 50px;
   border: 2px solid #99e2d0;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .entrees h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 
@@ -609,7 +649,7 @@ img {
 
 .plats h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 
@@ -619,7 +659,7 @@ img {
 
 .desserts h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 

@@ -218,24 +218,29 @@ img {
   p:hover {
     margin: 3px 0 0px 0px;
     padding: 0px 0 0px 15px;
-    // white-space: nowrap;
-    // display: inline-block;
-    // text-overflow: ellipsis;
-    // overflow: hidden;
-    width: 45%;
+
+    width: 60%;
     @include rogner;
   }
+}
+.roro:hover {
+  max-width: 60%;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  @include rogner;
 }
 
 // -----------------------underline green titres  menu --------------------------------------------------
 .underline {
   width: 50px;
   border: 2px solid $color-tertiary;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .entrees h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 
@@ -245,7 +250,7 @@ img {
 
 .plats h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 
@@ -255,7 +260,7 @@ img {
 
 .desserts h2 {
   font-family: "Roboto", sans-serif;
-  margin: 15px 15px 5px 15px;
+  margin: 15px 15px 5px 20px;
   font-size: 20px;
 }
 

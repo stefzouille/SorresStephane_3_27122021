@@ -4,6 +4,13 @@
   margin-bottom: 50px;
   animation: fadeIn 2s;
 
+  .transparent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    width: auto;
+  }
   h1 {
     font-size: 30px;
     margin-left: 10px;
@@ -70,4 +77,18 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+/* la largeur du viewport */
+@media (min-width: 568px) {
+  body {
+    padding: 3rem;
+  }
+  .transparent {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    width: auto;
+  }
 }
