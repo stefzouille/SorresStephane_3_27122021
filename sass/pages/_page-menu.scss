@@ -8,7 +8,7 @@ img {
   @include auto-cover;
 }
 
-header {
+.header-menu {
   img {
     width: 42%;
     margin-top: 20px;
@@ -46,23 +46,11 @@ header {
     padding-left: 20px;
     width: 70%;
   }
-  // .like {
-  //   display: inline;
-  //   width: 15%;
-  //   margin-top: 13%;
-  //   font-size: 25px;
-  //   float: right;
-  // }
+
   i {
     @include no-effect-liens;
   }
 
-  .entrees h1 {
-    font-family: "Roboto", sans-serif;
-    margin: 15px;
-    font-size: 20px;
-    @include underline-green;
-  }
   .like {
     position: absolute;
     bottom: 70px;
@@ -162,7 +150,7 @@ header {
   padding-bottom: 10px;
   @include no-effect-liens;
 
-  h2 {
+  h3 {
     font-size: 17px;
     padding: 0;
     margin: 15px 10px 5px 15px;
@@ -238,15 +226,21 @@ header {
     @include rogner;
   }
 }
+.entrees h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  font-size: 20px;
+  @include underline-green;
+}
 
 .plats {
   margin-top: 40px;
 }
 
-.plats h1 {
+.plats h2 {
   font-family: "Roboto", sans-serif;
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 5px;
   @include underline-green;
 }
@@ -255,10 +249,10 @@ header {
   margin-top: 40px;
 }
 
-.desserts h1 {
+.desserts h2 {
   font-family: "Roboto", sans-serif;
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 5px;
   @include underline-green;
 }

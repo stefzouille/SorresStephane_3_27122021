@@ -383,12 +383,12 @@ img {
   object-fit: cover;
 }
 
-header img {
+.header-menu img {
   width: 42%;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-header .menu_nav i {
+.header-menu .menu_nav i {
   width: 10%;
   height: 50%;
   margin: 4vw auto;
@@ -422,13 +422,6 @@ header .menu_nav i {
 .menu i {
   list-style-type: none;
   color: black;
-}
-.menu .entrees h1 {
-  font-family: "Roboto", sans-serif;
-  margin: 15px;
-  font-size: 20px;
-  text-decoration: underline #99e2d0;
-  text-underline-position: under;
 }
 .menu .like {
   position: absolute;
@@ -531,7 +524,7 @@ header .menu_nav i {
   list-style-type: none;
   color: black;
 }
-.card-menu h2 {
+.card-menu h3 {
   font-size: 17px;
   padding: 0;
   margin: 15px 10px 5px 15px;
@@ -598,30 +591,44 @@ header .menu_nav i {
   overflow: hidden;
 }
 
+.entrees h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 15px;
+  font-size: 20px;
+  text-decoration: underline #99e2d0;
+  text-decoration-thickness: 2px;
+  text-underline-position: under;
+  text-underline-offset: 5px;
+}
+
 .plats {
   margin-top: 40px;
 }
 
-.plats h1 {
+.plats h2 {
   font-family: "Roboto", sans-serif;
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 5px;
   text-decoration: underline #99e2d0;
+  text-decoration-thickness: 2px;
   text-underline-position: under;
+  text-underline-offset: 5px;
 }
 
 .desserts {
   margin-top: 40px;
 }
 
-.desserts h1 {
+.desserts h2 {
   font-family: "Roboto", sans-serif;
   margin: 15px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 5px;
   text-decoration: underline #99e2d0;
+  text-decoration-thickness: 2px;
   text-underline-position: under;
+  text-underline-offset: 5px;
 }
 
 .cmd {
