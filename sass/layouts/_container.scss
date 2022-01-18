@@ -31,7 +31,8 @@
     padding: 18px 10px 15px 0px;
     margin: 20px 10px 20px 0px;
     width: 98%;
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 3.5vw;
     font-weight: bold;
     border-radius: 35px;
     box-shadow: 0.5px 1px 4px 1px rgb(212, 212, 212);
@@ -70,23 +71,33 @@ img {
 }
 
 /* la largeur du viewport */
-@media (min-width: 568px) {
+
+@media (max-width: 868px) {
+  .container li {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 868px) {
   body {
     padding: 3rem;
   }
   .container ul {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
   .container li {
-    border: orange 1px solid;
     white-space: nowrap;
     width: 30%;
     align-items: center;
+    justify-content: space-between;
+    font-size: 1.7vw;
   }
-  .wrap a {
-    margin: 0;
-    padding: 0;
-    border: orchid 1px solid;
-  }
+  // .wrap p,
+  // i,
+  // a {
+  //   display: inline;
+  //   border: orchid 1px solid;
+
+  // }
 }
