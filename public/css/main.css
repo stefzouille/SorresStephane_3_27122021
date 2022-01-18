@@ -448,7 +448,7 @@ img {
   padding-right: 20px;
 }
 .menu h1 {
-  font-size: 28px;
+  font-size: 26px;
   font-family: "Shrikhand", cursive;
   display: inline-block;
   margin: 45px 4px 20px 10px;
@@ -461,7 +461,7 @@ img {
 }
 .menu .like {
   position: absolute;
-  bottom: 70px;
+  bottom: 65px;
   right: 25px;
   font-size: 30px;
   margin-top: 13%;
