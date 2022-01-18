@@ -623,10 +623,10 @@ img {
   animation: rotate-validation 200ms;
   animation-delay: 0.3s;
 }
-.card-menu:hover p:hover {
+.card-menu:hover .roro:hover .p-rogn {
   margin: 1px 0px 0px 0px;
   padding: 1px 0px 0px 15px;
-  width: 93%;
+  width: 50%;
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
@@ -634,6 +634,14 @@ img {
 }
 .card-menu:hover h3 {
   width: 93%;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.roro:hover h3 {
+  max-width: 50%;
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;

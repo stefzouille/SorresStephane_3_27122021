@@ -221,11 +221,11 @@ img {
   }
 
   // ------------------------rogner P texte avec 3 dot en mode hover ------------------------------
-  p:hover {
+  .roro:hover .p-rogn {
     margin: 1px 0px 0px 0px;
 
     padding: 1px 0px 0px 15px;
-    width: 93%;
+    width: 50%;
     @include rogner;
   }
   h3 {
@@ -235,14 +235,11 @@ img {
 }
 
 // ----------------------rogner  hover h3 --------------------------------------------------
-// h3:hover {
-//   max-width: 50%;
-//   white-space: nowrap;
-//   display: inline-block;
-//   text-overflow: ellipsis;
-//   overflow: hidden;
-//   @include rogner;
-// }
+.roro:hover h3 {
+  max-width: 50%;
+
+  @include rogner;
+}
 
 // -----------------------underline green 3 titres de menus --------------------------------------------------
 .underline {
