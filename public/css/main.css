@@ -766,9 +766,14 @@ footer a {
   color: white;
 }
 
-@media (min-width: 568px) {
-  a {
-    display: inline;
+@media (min-width: 1000px) {
+  section {
+    width: 80%;
+    margin-left: 13%;
+  }
+
+  .roro {
+    text-align: center;
   }
 }
 
