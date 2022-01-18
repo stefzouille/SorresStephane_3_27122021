@@ -251,6 +251,11 @@ img {
 }
 
 /* la largeur du viewport */
+@media (max-width: 472px) {
+  .container li {
+    font-size: 1.2rem;
+  }
+}
 @media (min-width: 868px) {
   body {
     padding: 3rem;
@@ -267,8 +272,11 @@ img {
     font-size: 1rem;
   }
 
-  .container a {
-    text-align: center;
+  .wrap {
+    display: inline;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 .section_card {
