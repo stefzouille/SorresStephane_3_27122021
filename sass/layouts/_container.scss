@@ -28,11 +28,13 @@
     // border: aqua 1px solid;
     list-style: none;
     outline: none;
-    padding: 18px 10px 15px 0px;
-    margin: 20px 10px 20px 0px;
-    width: 98%;
+    padding: 18px 0px 15px 0px;
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    white-space: nowrap;
     // font-size: 20px;
-    font-size: 3.5vw;
+    font-size: 1.45rem;
     font-weight: bold;
     border-radius: 35px;
     box-shadow: 0.5px 1px 4px 1px rgb(212, 212, 212);
@@ -48,9 +50,16 @@
       background-color: $color-primary;
     }
   }
+  li a {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    // font-size: 3vw;
+    text-align: center;
+  }
   .fas {
-    margin-left: 15px;
-    margin-right: 8px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
 
@@ -72,11 +81,11 @@ img {
 
 /* la largeur du viewport */
 
-@media (max-width: 868px) {
-  .container li {
-    font-size: 5vw;
-  }
-}
+// @media (max-width: 868px) {
+//   .container li {
+//     font-size: 2rem;
+//   }
+// }
 
 @media (min-width: 868px) {
   body {
@@ -90,14 +99,9 @@ img {
     white-space: nowrap;
     width: 30%;
     align-items: center;
-    justify-content: space-between;
-    font-size: 1.7vw;
+    font-size: 1rem;
   }
-  // .wrap p,
-  // i,
-  // a {
-  //   display: inline;
-  //   border: orchid 1px solid;
-
-  // }
+  .container a {
+    text-align: center;
+  }
 }

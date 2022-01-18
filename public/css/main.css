@@ -203,10 +203,12 @@ header button:hover {
 .container li {
   list-style: none;
   outline: none;
-  padding: 18px 10px 15px 0px;
-  margin: 20px 10px 20px 0px;
-  width: 98%;
-  font-size: 3.5vw;
+  padding: 18px 0px 15px 0px;
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 1.45rem;
   font-weight: bold;
   border-radius: 35px;
   box-shadow: 0.5px 1px 4px 1px #d4d4d4;
@@ -221,9 +223,15 @@ header button:hover {
   transform: translateX(-15px);
   background-color: #9156dc;
 }
+.container li a {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .container .fas {
-  margin-left: 15px;
-  margin-right: 8px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .fa-store:hover {
@@ -243,11 +251,6 @@ img {
 }
 
 /* la largeur du viewport */
-@media (max-width: 868px) {
-  .container li {
-    font-size: 5vw;
-  }
-}
 @media (min-width: 868px) {
   body {
     padding: 3rem;
@@ -261,8 +264,11 @@ img {
     white-space: nowrap;
     width: 30%;
     align-items: center;
-    justify-content: space-between;
-    font-size: 1.7vw;
+    font-size: 1rem;
+  }
+
+  .container a {
+    text-align: center;
   }
 }
 .section_card {
