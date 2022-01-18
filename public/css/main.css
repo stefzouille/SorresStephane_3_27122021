@@ -254,9 +254,15 @@ img {
   }
 
   .container li {
+    border: orange 1px solid;
     white-space: nowrap;
     width: 30%;
     align-items: center;
+  }
+
+  p,
+a {
+    border: orchid 1px solid;
   }
 }
 .section_card {

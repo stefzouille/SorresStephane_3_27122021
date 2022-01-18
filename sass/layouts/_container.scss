@@ -68,6 +68,7 @@ img {
   height: auto;
   object-fit: cover;
 }
+
 /* la largeur du viewport */
 @media (min-width: 568px) {
   body {
@@ -78,8 +79,13 @@ img {
     flex-wrap: wrap;
   }
   .container li {
+    border: orange 1px solid;
     white-space: nowrap;
     width: 30%;
     align-items: center;
+  }
+  p,
+  a {
+    border: orchid 1px solid;
   }
 }
