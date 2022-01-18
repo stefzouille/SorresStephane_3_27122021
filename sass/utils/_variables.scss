@@ -2,17 +2,20 @@ $color-primary: #9156dc;
 $color-secondary: #ff79da;
 $color-tertiary: #99e2d0;
 
+// adapte img a son contenu avec sa largeur et sa hauteur
 @mixin auto-cover {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
+//enleve le surlignement des liens et passe couleurs bleu en noir
 @mixin no-effect-liens {
   list-style-type: none;
   color: black;
 }
 
+// centrer les element du header page principale
 @mixin center {
   text-align: center;
   padding: 0;
@@ -24,7 +27,7 @@ $color-tertiary: #99e2d0;
   font-size: 20px;
 }
 
-// rogner texte lors du hover menu
+// rogner texte lors du hover su page des menus
 @mixin rogner {
   white-space: nowrap;
   display: inline-block;
@@ -36,6 +39,7 @@ $color-tertiary: #99e2d0;
   background-color: #414141;
   padding-bottom: 15px;
 
+  // image pour le footer et inversion de la couleur
   svg {
     padding: 10px 10px 0px 20px;
     width: 24%;

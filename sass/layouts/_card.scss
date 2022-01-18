@@ -12,7 +12,6 @@
   }
 
   img {
-    // position: relative;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -21,10 +20,6 @@
 
   a strong {
     border: $color-tertiary 1px solid;
-    // position: relative;
-    // top: -10.5rem;
-    // left: 17rem;
-    // z-index: 2;
     padding: 0.4rem 0.7rem;
     color: rgb(67, 116, 87);
     background-color: $color-tertiary;
@@ -92,11 +87,10 @@
     position: relative;
     z-index: 10;
     float: right;
-    // color: transparent;
   }
 }
 
-/* la largeur du viewport */
+/*responsive la largeur du viewport */
 @media (min-width: 568px) {
   h2 {
     width: 100%;

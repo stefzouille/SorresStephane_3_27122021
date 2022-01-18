@@ -1,16 +1,4 @@
-// @keyframes animation {
-//     0%  {background-color:$color-primary;}
-// }
-
-@keyframes progress {
-  0% {
-    transform: translateX(120px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
+//faire tourner le validate animation dans les pages menus
 @keyframes rotate-validation {
   0% {
     transform: rotate(-250deg);
@@ -28,7 +16,7 @@
     transform: rotate(0deg);
   }
 }
-
+//pour le delai des cards dans les pages menu
 @keyframes splash {
   from {
     opacity: 0;
@@ -40,6 +28,7 @@
   }
 }
 
+//animation pour le coeur pink
 @keyframes like {
   from {
     opacity: 1;

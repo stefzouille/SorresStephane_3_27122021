@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@keyframes progress {
-  0% {
-    transform: translateX(120px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 @keyframes rotate-validation {
   0% {
     transform: rotate(-250deg);
@@ -349,7 +341,7 @@ img {
   float: right;
 }
 
-/* la largeur du viewport */
+/*responsive la largeur du viewport */
 @media (min-width: 568px) {
   h2 {
     width: 100%;
