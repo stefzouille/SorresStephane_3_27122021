@@ -260,8 +260,9 @@ img {
     align-items: center;
   }
 
-  p,
-a {
+  .wrap a {
+    margin: 0;
+    padding: 0;
     border: orchid 1px solid;
   }
 }
