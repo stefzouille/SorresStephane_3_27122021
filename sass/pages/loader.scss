@@ -1,7 +1,7 @@
 .backcolo {
   display: flex;
   flex-direction: column;
-  animation-name: fadeIn-color 2.8s forwards;
+  animation: fadeIn-color 2.8s forwards;
   .loader {
     border: 20px solid $color-secondary;
     border-top: 20px solid $color-primary;

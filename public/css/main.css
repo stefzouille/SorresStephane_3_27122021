@@ -77,7 +77,7 @@
 .backcolo {
   display: flex;
   flex-direction: column;
-  animation-name: fadeIn-color 2.8s forwards;
+  animation: fadeIn-color 2.8s forwards;
 }
 .backcolo .loader {
   border: 20px solid #ff79da;
