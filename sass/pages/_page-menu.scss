@@ -303,22 +303,25 @@ footer {
   @include footer;
 }
 
-// @media (min-width: 568px) {
-//   a {
-//     display: inline;
-//   }
-// }
+@media (min-width: 350px) and (max-width: 999px) {
+  .pink {
+    bottom: 40px !important;
+  }
+}
 
 @media (min-width: 1000px) {
   section {
     width: 80%;
     margin-left: 13%;
   }
-  // h3,
-  // p,
-  // strong {
-  //   font-size: 21px !important;
-  // }
+
+  .menu h1 {
+    font-size: 4vw !important;
+  }
+  .pink {
+    font-size: 2.5vw !important;
+    bottom: 65px !important;
+  }
 
   .roro {
     text-align: center;
