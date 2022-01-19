@@ -788,12 +788,12 @@ footer a {
   }
 
   .menu h1 {
-    font-size: 4vw !important;
+    font-size: 3.5vw !important;
   }
 
   .pink {
     font-size: 2.5vw !important;
-    bottom: 65px !important;
+    align-items: center !important;
   }
 
   .roro {
