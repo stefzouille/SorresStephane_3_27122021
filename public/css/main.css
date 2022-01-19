@@ -394,6 +394,16 @@ img {
     width: 40%;
   }
 }
+@media (min-width: 1150px) {
+  a strong {
+    margin-right: 30px;
+  }
+
+  .far,
+.fas {
+    margin-right: 30px;
+  }
+}
 footer ul {
   animation: fadeIn 2s;
   background-color: #414141;

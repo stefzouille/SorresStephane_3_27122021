@@ -104,3 +104,13 @@
     width: 40%;
   }
 }
+// remettre new et heart dans la card au dessus de 1150px
+@media (min-width: 1150px) {
+  a strong {
+    margin-right: 30px;
+  }
+  .far,
+  .fas {
+    margin-right: 30px;
+  }
+}
