@@ -197,8 +197,8 @@ img {
 // ------------------------- elements hidden validation ----------------------------------
 
 .card-menu:hover {
-  margin: 10px 0 0px 15px;
-  padding: 0px 0 6px 10px;
+  // margin: 10px 0 0px 15px;
+  // padding: 0px 0 6px 10px;
 
   strong {
     transform: translateX(-5%);
@@ -223,7 +223,7 @@ img {
   .roro:hover .p-rogn {
     margin: 1px 0px 0px 0px;
 
-    padding: 1px 0px 0px 15px;
+    padding: 0px 0px 0px 15px;
     width: 50%;
     @include rogner;
   }
@@ -325,9 +325,5 @@ li:hover {
     font-size: 2.5vw !important;
     // bottom: 65px !important;
     align-items: center !important;
-  }
-
-  .roro {
-    text-align: center;
   }
 }

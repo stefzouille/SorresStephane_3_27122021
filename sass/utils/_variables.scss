@@ -30,7 +30,7 @@ $color-tertiary: #99e2d0;
 // rogner texte lors du hover su page des menus
 @mixin rogner {
   white-space: nowrap;
-  display: inline-block;
+  // display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
 }

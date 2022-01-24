@@ -642,10 +642,6 @@ img {
   transition: 700ms;
 }
 
-.card-menu:hover {
-  margin: 10px 0 0px 15px;
-  padding: 0px 0 6px 10px;
-}
 .card-menu:hover strong {
   transform: translateX(-5%);
   transition: transform 400ms ease-in-out;
@@ -664,17 +660,15 @@ img {
 }
 .card-menu:hover .roro:hover .p-rogn {
   margin: 1px 0px 0px 0px;
-  padding: 1px 0px 0px 15px;
+  padding: 0px 0px 0px 15px;
   width: 50%;
   white-space: nowrap;
-  display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 .card-menu:hover h3 {
   width: 93%;
   white-space: nowrap;
-  display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -682,7 +676,6 @@ img {
 .roro:hover h3 {
   max-width: 50%;
   white-space: nowrap;
-  display: inline-block;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -798,10 +791,6 @@ li:hover {
   .pink {
     font-size: 2.5vw !important;
     align-items: center !important;
-  }
-
-  .roro {
-    text-align: center;
   }
 }
 
