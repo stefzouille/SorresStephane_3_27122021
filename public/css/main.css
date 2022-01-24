@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Shrikhand&display=swap");
 @keyframes rotate-validation {
   0% {
     transform: rotate(-250deg);
@@ -110,6 +110,13 @@ header {
   display: flex;
   flex-direction: column;
 }
+header h2 {
+  font-size: 35px;
+  margin-left: 15px;
+}
+header p {
+  padding: 0;
+}
 header img {
   width: 32%;
   margin-top: 10px;
@@ -155,7 +162,11 @@ header .res_txt {
   padding-left: 28px;
   padding-right: 28px;
   font-size: 20px;
-  font-size: 16px;
+  font-size: 20px;
+}
+header .res_txt p {
+  color: #8d8d8d;
+  font-family: sans-serif;
 }
 header button {
   background: linear-gradient(#ff79da, #9156dc);
@@ -183,7 +194,7 @@ header button:hover {
   animation: fadeIn 2s;
 }
 .container h2 {
-  font-size: 22px;
+  font-size: 35px;
   margin-left: 15px;
 }
 .container ul {
@@ -208,7 +219,7 @@ header button:hover {
   margin-top: 15px;
   width: 100%;
   white-space: nowrap;
-  font-size: 1.45rem;
+  font-family: sans-serif;
   font-weight: bold;
   border-radius: 35px;
   box-shadow: 0.5px 1px 4px 1px #d4d4d4;
@@ -228,10 +239,12 @@ header button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 1rem;
+  margin-left: 10px;
 }
 .container .fas {
-  margin-left: 1px;
-  margin-right: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .fa-store:hover {
@@ -292,7 +305,6 @@ img {
 }
 @media (min-width: 1200px) {
   .container li a {
-    font-size: 1.5rem;
     padding-top: 20px;
   }
 }
