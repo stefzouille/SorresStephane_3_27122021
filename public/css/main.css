@@ -439,8 +439,8 @@ footer ul a {
   color: white;
 }
 
-.li:hover {
-  background-color: crimson;
+li:hover {
+  background-color: #414141;
 }
 
 body {
@@ -774,6 +774,10 @@ footer li {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+li:hover {
+  background-color: #414141;
 }
 
 @media (min-width: 350px) and (max-width: 999px) {

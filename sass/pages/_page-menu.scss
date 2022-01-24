@@ -302,6 +302,9 @@ img {
 footer {
   @include footer;
 }
+li:hover {
+  background-color: #414141;
+}
 
 @media (min-width: 350px) and (max-width: 999px) {
   .pink {
