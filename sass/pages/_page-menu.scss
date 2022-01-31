@@ -26,7 +26,11 @@ img {
 }
 
 .card {
+  border: aqua 1px solid;
   position: relative;
+}
+.background {
+  background-color: rgb(230, 230, 230);
 }
 
 .menu {
@@ -166,6 +170,8 @@ img {
     font-size: 14px;
     padding: 0;
     margin: 15px 15px 10px 15px;
+
+    font-family: sans-serif;
   }
 
   strong {
@@ -275,10 +281,12 @@ img {
 .cmd {
   @include no-effect-liens;
   text-align: center;
-  margin: 50px;
+  margin: 50px 50px 0px 50px;
   padding-top: 20px;
+  padding-bottom: 50px;
 
   a {
+    background-color: rgb(230, 230, 230);
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     background: linear-gradient($color-secondary, $color-primary);

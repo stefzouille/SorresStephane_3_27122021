@@ -360,6 +360,7 @@ img {
   margin: 4px 4px 4px 10px;
   font-size: 18px;
   width: 80%;
+  font-family: sans-serif;
 }
 .section_card .like {
   position: absolute;
@@ -487,7 +488,12 @@ img {
 }
 
 .card {
+  border: aqua 1px solid;
   position: relative;
+}
+
+.background {
+  background-color: #e6e6e6;
 }
 
 .menu {
@@ -628,6 +634,7 @@ img {
   font-size: 14px;
   padding: 0;
   margin: 15px 15px 10px 15px;
+  font-family: sans-serif;
 }
 .card-menu strong {
   position: absolute;
@@ -736,10 +743,12 @@ img {
   list-style-type: none;
   color: black;
   text-align: center;
-  margin: 50px;
+  margin: 50px 50px 0px 50px;
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 .cmd a {
+  background-color: #e6e6e6;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   background: linear-gradient(#ff79da, #9156dc);
