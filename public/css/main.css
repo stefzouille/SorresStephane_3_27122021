@@ -488,20 +488,23 @@ img {
 }
 
 .card {
-  border: aqua 1px solid;
   position: relative;
 }
 
 .background {
   background-color: #e6e6e6;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .menu {
   position: relative;
   margin-top: -50px;
-  background-color: #e9e9e9;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  background-color: #e6e6e6;
   padding-bottom: 40px;
   padding-right: 20px;
 }
